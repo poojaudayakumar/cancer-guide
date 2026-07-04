@@ -1,0 +1,1544 @@
+[
+  {
+    "id": "healing-harvest",
+    "name": "Healing Harvest",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "Lebanon, New Hampshire",
+    "states": [
+      "New Hampshire"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Free, nutritious groceries for cancer patients",
+    "requirements": "For patients treated at DHMC at Lebanon, New Hampshire",
+    "website": "https://order.toasttab.com/online/healingharvest",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Additional Information: https://cancer.dartmouth.edu/patients-families/healing-harvest"
+  },
+  {
+    "id": "dartmouth-oncology-nutrition-services",
+    "name": "Dartmouth Oncology Nutrition Services",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "New Hampshire",
+    "states": [
+      "New Hampshire"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Nutritional services for cancer patients",
+    "requirements": "Free for Dartmouth Cancer Center patients",
+    "website": "https://cancer.dartmouth.edu/patients-families/oncology-nutrition-services",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "dartmouth-complementary-care-program",
+    "name": "Dartmouth Complementary Care Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition",
+      "Emotional Support and Wellbeing",
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "New Hampshire, Vermont",
+    "states": [
+      "New Hampshire",
+      "Vermont"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Free classes/services for cancer patients",
+    "requirements": "For Dartmouth Cancer Center Patients in New Hampshire/VT",
+    "website": "https://cancer.dartmouth.edu/patients-families/complementary-care-program",
+    "email": "cancersupport@hitchcock.org",
+    "phone": "(603) 650-7751",
+    "additionalInfo": "Complementary Care Guide 2026 pdf: https://cancer.dartmouth.edu/sites/default/files/2026-01/complemenatry-care-program-guide-2026.pdf"
+  },
+  {
+    "id": "the-emergency-food-assistance-program",
+    "name": "The Emergency Food Assistance Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "All 50 states",
+    "states": [],
+    "isNationwide": true,
+    "isVirtual": false,
+    "description": "Free nutritious, high-quality food for anyone in need",
+    "requirements": "Depends on household income level and state you live in",
+    "website": "https://www.fns.usda.gov/tefap/applicant-recipient",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Find region for contact and more information: https://www.fns.usda.gov/tefap/program-contacts"
+  },
+  {
+    "id": "meals-on-wheels",
+    "name": "Meals on Wheels",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "All 50 states",
+    "states": [],
+    "isNationwide": true,
+    "isVirtual": false,
+    "description": "Free nutritious, home-delivered meals to seniors and homebound adults who cannot purchase or prepare their own food",
+    "requirements": "60+ years, homebound due to illness, disability, or other reason for having difficulty preparing meals or shopping for groceries and food",
+    "website": "https://www.mealsonwheelsamerica.org/find-meals-and-services/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Each county/region has its own service"
+  },
+  {
+    "id": "dartmouth-support-groups",
+    "name": "Dartmouth Support Groups",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Emotional Support and Wellbeing",
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "New Hampshire, Vermont",
+    "states": [
+      "New Hampshire",
+      "Vermont"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Free support groups for anyone in the area",
+    "requirements": "Regardless of where treatment was received",
+    "website": "https://www.dartmouth-health.org/events/hosts/dartmouth-cancer-center-patients-and-families-events-and-support-groups",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "https://cancer.dartmouth.edu/patients-families/complementary-care-program"
+  },
+  {
+    "id": "dartmouth-oncology-nutrition-playlist",
+    "name": "Dartmouth Oncology Nutrition Playlist",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free nutrition classes and simple recipes",
+    "requirements": "",
+    "website": "https://www.youtube.com/playlist?list=PLvDUwt0Is7v0izmJMPk1I8V-3kCZs_ja0",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "dartmouth-cancer-center-playlist",
+    "name": "Dartmouth Cancer Center Playlist",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition",
+      "Emotional Support and Wellbeing",
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free classes on nutrition, research, exercise, etc.",
+    "requirements": "",
+    "website": "https://www.youtube.com/playlist?list=PLvDUwt0Is7v31JsbU55qonOn-S1DyNHeV",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "https://cancer.dartmouth.edu/patients-families/complementary-care-program"
+  },
+  {
+    "id": "dartmouth-patient-and-family-resource-library",
+    "name": "Dartmouth Patient and Family Resource Library",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Lebanon, New Hampshire",
+    "states": [
+      "New Hampshire"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Library on cancer related topics",
+    "requirements": "Cancer patients and family members at DHMC",
+    "website": "https://cancer.dartmouth.edu/patients-families/resource-library",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "2K waiting area, Norris Cotton Cancer Care Pavilion, Lebanon, New Hampshire"
+  },
+  {
+    "id": "stupidcancer-org",
+    "name": "stupidcancer.org",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Informational",
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Country's largest support group for YA/adolescents with cancer. Includes info and links to other organizations for YA cancer patients as well other people's cancer stories",
+    "requirements": "",
+    "website": "http://stupidcancer.org/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "the-stupid-cancer-show",
+    "name": "The Stupid Cancer Show",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Real talk for young adults impacted by cancer",
+    "requirements": "",
+    "website": "https://www.iheart.com/podcast/269-the-stupid-cancer-show-96394226/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "out-cooking-it-e-book",
+    "name": "Out Cooking It E-Book",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition",
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free 100+ delicious and healthy recipes e-book",
+    "requirements": "",
+    "website": "https://firstdescents.org/out-cooking-it-ebook/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "first-descents",
+    "name": "First Descents",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "North Carolina, New York, Arkansas, Colorado, Montana, Oregon, California",
+    "states": [
+      "Arkansas",
+      "California",
+      "Colorado",
+      "Montana",
+      "New York",
+      "North Carolina",
+      "Oregon"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Free 1 week outdoor adventure experiences for young adult cancer survivors",
+    "requirements": "",
+    "website": "https://firstdescents.org/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "cookforyourlife-org",
+    "name": "cookforyourlife.org",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition",
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free 1000+ evidence-based recipes, hundreds of nutrition and health articles, and how-to cook videos for cancer prevention and control",
+    "requirements": "",
+    "website": "https://www.cookforyourlife.org/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "project-angel-food",
+    "name": "Project Angel Food",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "Los Angeles County, California",
+    "states": [
+      "California"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Free food and deliveries for people facing critical or life-threatening illness",
+    "requirements": "Diagnosed with life-threatening illness and are unable to independently access healthy food",
+    "website": "https://www.angelfood.org/delivery/ourservices/become-a-client",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "northern-new-england-clinical-oncology-society",
+    "name": "Northern New England Clinical Oncology Society",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Finance Assistance"
+    ],
+    "cost": "Free",
+    "location": "Maine, New Hampshire, Vermont",
+    "states": [
+      "Maine",
+      "New Hampshire",
+      "Vermont"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Emergency need grant for cancer patients in Northern NE facing food insecurity, financial toxicity, etc.",
+    "requirements": "Hematology/oncology patients under active treatment or receiving palliative care services as they approach hospice",
+    "website": "https://www.nnecos.org/ccsc?utm",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "mom-s-meals",
+    "name": "Mom's Meals",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "All 50 states",
+    "states": [],
+    "isNationwide": true,
+    "isVirtual": false,
+    "description": "Free home-delivered meals on Medicaid or Medicare Advantage plan",
+    "requirements": "Over 65, disabled, require assistance with grocery shopping and/or preparing meals, on Medicaid plan that offers a paid meal benefit, on a Medicare Advantage plan that offers a paid meal benefit",
+    "website": "https://www.momsmeals.com/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Meals are only up to $9.49 if you don't meet requirements"
+  },
+  {
+    "id": "project-purple",
+    "name": "Project Purple",
+    "cancerTypes": [
+      "Pancreatic"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "Massachusetts, New Hampshire, Rhode Island, Connecticut, Vermont, Maine, New York, New Jersey, Pennsylvania",
+    "states": [
+      "Connecticut",
+      "Maine",
+      "Massachusetts",
+      "New Hampshire",
+      "New Jersey",
+      "New York",
+      "Pennsylvania",
+      "Rhode Island",
+      "Vermont"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Meal assistance for pancreatic cancer patients",
+    "requirements": "Live in one of the states listed, be in active pancreatic cancer treatment, have email/access to computer, understand dietary restrictions, patient is responsible for ordering meals online",
+    "website": "https://www.projectpurple.org/patients-families/nutrition-assistance-program/",
+    "email": "",
+    "phone": "(203) 714-6052",
+    "additionalInfo": "Choice of meals and 2-4 month subscriptions"
+  },
+  {
+    "id": "cancer1source-meal-food-assistance-program",
+    "name": "Cancer1Source Meal & Food Assistance Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "Massachusetts",
+    "states": [
+      "Massachusetts"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "14 nutritious home-delivered meals",
+    "requirements": "Massachusetts Resident, household income below 400% of federal poverty level, receiving cancer treatment",
+    "website": "https://cancer1source.org/meal-and-food-assistance-program/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Receive gift cards or prepared meals"
+  },
+  {
+    "id": "cancer1source-genetic-genomic-testing-program",
+    "name": "Cancer1Source Genetic & Genomic Testing Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Medicine/Medical",
+      "Finance Assistance"
+    ],
+    "cost": "Free",
+    "location": "Massachusetts",
+    "states": [
+      "Massachusetts"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Up to $150 to assist patients who can't afford out-of-pocket expenses or genetic/genomic testing or genetic counseling",
+    "requirements": "Massachusetts Resident, household income below 400% of federal poverty level, receiving cancer treatment",
+    "website": "https://cancer1source.org/cancer-genetic-and-genomic-testing-program/#",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "cancer1source-lymphedema-garment-assistance-program",
+    "name": "Cancer1Source Lymphedema Garment Assistance Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Finance Assistance",
+      "Medicine/Medical"
+    ],
+    "cost": "Free",
+    "location": "Massachusetts",
+    "states": [
+      "Massachusetts"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Assist with out-of-pocket costs related to lymphedema treatment",
+    "requirements": "Massachusetts Resident, household income below 400% of federal poverty level, receiving cancer treatment",
+    "website": "https://cancer1source.org/lymphedema-garment-assistance-program/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "cancer1source-medication",
+    "name": "Cancer1Source Medication",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Finance Assistance",
+      "Medicine/Medical"
+    ],
+    "cost": "Free",
+    "location": "Massachusetts",
+    "states": [
+      "Massachusetts"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Provide Drug Discount Card to save up to 80% on prescription medicine for drugs not covered by insurance, is a high drug deductible, a low medicine cap that has been met, card offers better price than copay, you are in Medicare Part D donut hole",
+    "requirements": "Massachusetts Resident, household income below 400% of federal poverty level, receiving cancer treatment",
+    "website": "https://cancer1source.org/medication-assistance/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "cancer1source-transportation-assistance-program",
+    "name": "Cancer1Source Transportation Assistance Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Finance Assistance",
+      "Transportation"
+    ],
+    "cost": "Free",
+    "location": "Massachusetts",
+    "states": [
+      "Massachusetts"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Provide limited financial assistance for treatment-related transportation for cancer patients",
+    "requirements": "Massachusetts Resident, household income below 400% of federal poverty level, receiving cancer treatment",
+    "website": "https://cancer1source.org/transportation-assistance-program/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Up to $150 per person per year -> gas gift card for personal gas or generic gift card for any type of transportation costs"
+  },
+  {
+    "id": "cancer1source-wig-hairpeace-assistance-program",
+    "name": "Cancer1Source Wig/Hairpiece Assistance Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance",
+      "Finance Assistance"
+    ],
+    "cost": "Free",
+    "location": "Massachusetts",
+    "states": [
+      "Massachusetts"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Up to $150 of assistance for wigs or hairpieces",
+    "requirements": "Massachusetts Resident, household income below 400% of federal poverty level, receiving cancer treatment",
+    "website": "https://cancer1source.org/wig-hairpiece-assistance-program/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "lasagna-love",
+    "name": "Lasagna Love",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "All 50 states",
+    "states": [],
+    "isNationwide": true,
+    "isVirtual": false,
+    "description": "Free home-delivered lasagna",
+    "requirements": "Any kind of need",
+    "website": "https://lasagnalove.org/request-a-meal/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "new-hampshire-food-bank",
+    "name": "New Hampshire Food Bank",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "New Hampshire",
+    "states": [
+      "New Hampshire"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Provide food for New Hampshire residents who are food insecure",
+    "requirements": "In need of food",
+    "website": "https://nhfoodbank.org/find-food/food-map/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "amazon-ebt-program",
+    "name": "Amazon EBT Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Finance Assistance",
+      "Food and Nutrition"
+    ],
+    "cost": "< $25",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Reduced food prices for SNAP and EBT",
+    "requirements": "SNAP or EBT card holder",
+    "website": "https://www.amazon.com/b?node=19097785011&linkCode=ll2&tag=ccnews05-20&linkId=d377ba68eeab534f54fe560c21634cbf&language=en_US&ref_=as_li_ss_tl",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "cancer-nutrition-consortium",
+    "name": "Cancer Nutrition Consortium",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition",
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Filterable, unique nutritional recipes for those undergoing cancer treatment as well as cancer nutrition awareness",
+    "requirements": "",
+    "website": "https://www.cancernutrition.org/recipes/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Resources: https://www.cancernutrition.org/resources/"
+  },
+  {
+    "id": "cancer-support-community",
+    "name": "Cancer Support Community",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Informational",
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "Montana, Missouri, Kansas, Iowa, Illinois, Minnesota, Wisconsin, Tennessee",
+    "states": [
+      "Illinois",
+      "Iowa",
+      "Kansas",
+      "Minnesota",
+      "Missouri",
+      "Montana",
+      "Tennessee",
+      "Wisconsin"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Offers free programs, support, and services for cancer patients/survivors/caregivers/etc. and information sources such as blogs",
+    "requirements": "Cancer survivors, patients, caregivers, family, loved ones",
+    "website": "https://www.cancersupportcommunity.org/get-support",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Find locations: https://www.cancersupportcommunity.org/find-location-near-you"
+  },
+  {
+    "id": "why-hunger",
+    "name": "Why Hunger",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "All 50 states",
+    "states": [],
+    "isNationwide": true,
+    "isVirtual": false,
+    "description": "Connects people to free, nutritious food",
+    "requirements": "Based on financial need",
+    "website": "https://networks.whyhunger.org/",
+    "email": "why@whyhunger.org",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "snap",
+    "name": "SNAP",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "All 50 states",
+    "states": [],
+    "isNationwide": true,
+    "isVirtual": false,
+    "description": "Offers free help buying groceries",
+    "requirements": "Based on financial need",
+    "website": "https://www.fns.usda.gov/snap/state-directory",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "abbott-nutrition-pathway-plus-program",
+    "name": "Abbott Nutrition Pathway Plus Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition",
+      "Finance Assistance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides free supplement products to eligible cancer patients facing financial issues",
+    "requirements": "Based on lack of insurance coverage and financial need",
+    "website": "https://www.pathwayreimbursement.com/",
+    "email": "",
+    "phone": "(855) 217-0698",
+    "additionalInfo": "Phone available for M-F 8:30-5:00 EST"
+  },
+  {
+    "id": "maribo-cares-food-program",
+    "name": "Maribo Cares Food Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "All 50 states",
+    "states": [],
+    "isNationwide": true,
+    "isVirtual": false,
+    "description": "Free food boxes to seniors aged 60+ in US undergoing cancer treatment",
+    "requirements": "60+ undergoing cancer treatment",
+    "website": "https://maribocares.org/applications/",
+    "email": "info@maribocares.org",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "wellness-house-online-exercise-programs",
+    "name": "Wellness House Online Exercise Programs",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "Hinsdale, Illinois \u00b7 Virtual",
+    "states": [
+      "Illinois"
+    ],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free online yoga, mind/body movement, Pilates, Tai-Chi, etc. for cancer patients",
+    "requirements": "Cancer patients of any abilities and experiences",
+    "website": "https://wellnesshouse.org/our-programs/exercise/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "hope-connections-online-fitness-classes",
+    "name": "Hope Connections Online Fitness Classes",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free virtual online fitness, support, and educational classes for cancer patients and caregivers 18+ in USA",
+    "requirements": "Cancer patients/caregivers 18+ in US",
+    "website": "https://hopeconnectionsforcancer.org/contact/first-time-visitors-form/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "lending-hearts-virtual-programs",
+    "name": "Lending Hearts Virtual Programs",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free virtual wellness programs for cancer patients in the US",
+    "requirements": "Cancer patients in US",
+    "website": "https://www.lendinghearts.org/program-calendar",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "cancer-pathways-online-wellness-community-class",
+    "name": "Cancer Pathways Online Wellness/Community Class",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free online yoga, art, and wellness/support classes for cancer patients",
+    "requirements": "For cancer patients and their loved ones",
+    "website": "https://cancerpathways.org/wellness/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "moving-for-life-online-exercise-program",
+    "name": "Moving for Life Online Exercise Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "New York \u00b7 Virtual",
+    "states": [
+      "New York"
+    ],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free virtual exercise program for cancer patients anywhere in the USA",
+    "requirements": "Based on income",
+    "website": "https://www.movingforlife.org/classes/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "livingwell-yoga-program",
+    "name": "LivingWell Yoga Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free weekly online classes with instructors as well as youtube playlist",
+    "requirements": "",
+    "website": "https://www.youtube.com/@NorthwesternMedicineLivingWell/videos",
+    "email": "info@livingwellcrc.org",
+    "phone": "",
+    "additionalInfo": "Also see: https://livingwellcrc.org/virtual-mindful-movement-programs/"
+  },
+  {
+    "id": "life-with-cancer",
+    "name": "Life with Cancer",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free virtual (& in-person) classes about yoga, mindfulness, stress management, health etc.",
+    "requirements": "",
+    "website": "https://events.lifewithcancer.org/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "blood-cancer-united-dietitian-consultation",
+    "name": "Blood Cancer United Dietitian Consultation",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition",
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free nutrition consultations via phone or email with an experienced registered oncology dietitian for nutrition education and side-effect management for all cancer patients in the USA",
+    "requirements": "All cancer patients in the USA",
+    "website": "https://bloodcancerunitednutrition.org/schedule-a-dietitian-consultation/",
+    "email": "",
+    "phone": "(877) 467-1936",
+    "additionalInfo": ""
+  },
+  {
+    "id": "chemocare-com",
+    "name": "chemocare.com",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Comprehensive source of information about chemotherapy drugs, side effect informations, cancer wellness information, etc. for cancer patients and their caregivers",
+    "requirements": "",
+    "website": "https://chemocare.com/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "chemocessories",
+    "name": "Chemocessories",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provide free set of accessories (ex: scarves, jewelry, etc.) for women going through cancer treatment and hair loss",
+    "requirements": "Recipients must be undergoing cancer treatment or have completed treatment within the last 12 months in the US",
+    "website": "https://chemocessories.org/request-a-set/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "ebeauty",
+    "name": "EBeauty",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provide free wigs to women to restore self-image and confidence during cancer treatments",
+    "requirements": "Women in the US undergoing cancer treatment",
+    "website": "https://ebeauty.com/request-a-wig/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "hair-we-share",
+    "name": "Hair We Share",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides free wigs for <18 or free wig based on financial need for 18+",
+    "requirements": "US residents with permanent hair loss due to a medical condition (cancer, alopecia, trauma, etc.)",
+    "website": "https://hairweshare.org/apply-for-a-wig",
+    "email": "care@hairweshare.com",
+    "phone": "(516) 484-8483",
+    "additionalInfo": ""
+  },
+  {
+    "id": "heavenly-hats",
+    "name": "Heavenly Hats",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides brand-new hats for patients who have lost hair due to a medical condition to improve self-image and courage",
+    "requirements": "Cancer/medical patients who lost their hair due to a disease or the treatment of a disease",
+    "website": "https://heavenlyhats.org/hat-parade/hat-package/",
+    "email": "",
+    "phone": "(920) 362-2668",
+    "additionalInfo": ""
+  },
+  {
+    "id": "hope-scarves",
+    "name": "Hope Scarves",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides free headscarves paired with survivor stories to offer encouragement to those in active treatment",
+    "requirements": "Cancer survivors in active treatment throughout the world",
+    "website": "https://hopescarves.org/scarves/",
+    "email": "",
+    "phone": "(502) 333-9715",
+    "additionalInfo": ""
+  },
+  {
+    "id": "locks-of-love",
+    "name": "Locks of Love",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provide high quality hair prosthetics for children and young adults up to 21 suffering from hair loss to boost self confidence",
+    "requirements": "Children and young adults up to 21 in U.S. and Canada",
+    "website": "https://locksoflove.org/forms/hairpiece-application/",
+    "email": "",
+    "phone": "(561) 833-7332",
+    "additionalInfo": ""
+  },
+  {
+    "id": "look-good-feel-better",
+    "name": "Look Good Feel Better",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Teach beauty techniques to people with cancer to give them a sense of confidence and community",
+    "requirements": "Cancer patients worldwide",
+    "website": "https://lookgoodfeelbetter.org/beauty-guides/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "look-good-feel-better-for-teens",
+    "name": "Look Good Feel Better for Teens",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Offers free materials and information to help teens deal with the effects of cancer treatment",
+    "requirements": "Teens 13 to 17 dealing with cancer",
+    "website": "https://lookgoodfeelbetter.org/beauty-guides/men-teens/teen-guides/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "wigs-and-wishes",
+    "name": "Wigs and Wishes",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides free wigs and grants wishes to courageous individuals battling cancer",
+    "requirements": "Women and children with cancer",
+    "website": "https://www.wigsandwishes.com/request-a-wig.php",
+    "email": "",
+    "phone": "(856) 582-6600",
+    "additionalInfo": ""
+  },
+  {
+    "id": "wigs-for-kids-wfk",
+    "name": "Wigs for Kids (WFK)",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free hair replacement systems and support for children who have lost their hair due to medical issues worldwide",
+    "requirements": "Patients under 18 worldwide",
+    "website": "https://www.wigsforkids.org/recipient-program/",
+    "email": "",
+    "phone": "(440) 333-4433",
+    "additionalInfo": ""
+  },
+  {
+    "id": "american-cancer-society-road-to-recovery",
+    "name": "American Cancer Society Road to Recovery",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Transportation"
+    ],
+    "cost": "Free",
+    "location": "Check availability",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Free ride to cancer-related medical appointment",
+    "requirements": "Cancer-related medical appointment",
+    "website": "https://www.cancer.org/support-programs-and-services/road-to-recovery.html",
+    "email": "",
+    "phone": "(800) 227-2345",
+    "additionalInfo": ""
+  },
+  {
+    "id": "american-cancer-society-patient-lodging-programs",
+    "name": "American Cancer Society Patient Lodging Programs",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Housing/Lodging"
+    ],
+    "cost": "Free",
+    "location": "Alabama, Florida, Georgia, Hawaii, Iowa, Kentucky, Louisiana, Maryland, Massachusetts, Minnesota, Mississippi, Missouri, Nebraska, New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Puerto Rico, South Carolina, Tennessee, Texas, Utah, Vermont",
+    "states": [
+      "Alabama",
+      "Florida",
+      "Georgia",
+      "Hawaii",
+      "Iowa",
+      "Kentucky",
+      "Louisiana",
+      "Maryland",
+      "Massachusetts",
+      "Minnesota",
+      "Mississippi",
+      "Missouri",
+      "Nebraska",
+      "New York",
+      "North Carolina",
+      "Ohio",
+      "Oklahoma",
+      "Pennsylvania",
+      "Puerto Rico",
+      "South Carolina",
+      "Tennessee",
+      "Texas",
+      "Utah",
+      "Vermont"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Offer people facing cancer and their caregivers a home while receiving cancer treatment",
+    "requirements": "For patients needing housing accommodations for cancer treatment",
+    "website": "https://www.cancer.org/support-programs-and-services/patient-lodging/hope-lodge.html",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "acs-cares",
+    "name": "ACS Cares",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "A free mobile app that provides cancer patients and loved ones resources to navigate their journey such as personalized cancer related information and connection with volunteers",
+    "requirements": "For people with cancer, their families, and their caregivers",
+    "website": "https://www.cancer.org/support-programs-and-services/acs-cares.html",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "american-cancer-society-live-chat-or-call",
+    "name": "American Cancer Society Live Chat or call",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Informational"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "24/7 everyday call line to get assistance with cancer-related information and other inquiries",
+    "requirements": "For cancer patients, caregivers, and family members",
+    "website": "https://www.cancer.org/about-us/online-help/contact-us.html",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "courage-for-the-soul-head-scarves",
+    "name": "Courage for the Soul Head Scarves",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides free head scarves for cancer patients in the US who are experiencing hair loss",
+    "requirements": "For cancer patients in active treatment in the USA who are experiencing hair loss",
+    "website": "https://www.courageforthesoul.com/request-a-scarf-for-yourself",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "knots-of-love",
+    "name": "Knots of Love",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides free handmade beanies to cancer patients in the USA",
+    "requirements": "For cancer patients in the USA undergoing chemotherapy treatment",
+    "website": "https://www.knotsoflove.org/patterns",
+    "email": "info@knotsoflove.org",
+    "phone": "",
+    "additionalInfo": "Email for a request"
+  },
+  {
+    "id": "the-turban-project",
+    "name": "The Turban Project",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides free beautiful handmade head coverings to cancer patients nationwide including turban, cap, beanie, or crochet hat",
+    "requirements": "For cancer patients in the USA",
+    "website": "https://turbanproject.org/request-headwear",
+    "email": "turbanproject@outlook.com",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "the-pink-wig-project",
+    "name": "The Pink Wig Project",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides free fun, pink wigs for cancer patients in the USA in active treatment",
+    "requirements": "Cancer patients in the USA who are in active treatment",
+    "website": "https://www.pinkwigproject.org/pages/apply-for-a-wig",
+    "email": "info@pinkwigproject.org",
+    "phone": "(901) 443-6209",
+    "additionalInfo": ""
+  },
+  {
+    "id": "pink-heart-funds-free-wig-program",
+    "name": "Pink Heart Funds Free Wig Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance",
+      "Finance Assistance"
+    ],
+    "cost": "Free",
+    "location": "Mississippi",
+    "states": [
+      "Mississippi"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Provides wigs for those who are uninsured or underinsured in the MS Coast counties who are experiencing hair loss due to cancer or extreme balding disorders",
+    "requirements": "Hair loss patients who are uninsured or underinsured in MS Local Coast counties",
+    "website": "https://pinkheartfunds.org/wig-program",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Hancock, Harrison, Jackson, Pearl River, Stone, and George Counties in MS Gulf Coast"
+  },
+  {
+    "id": "pink-heart-funds-breast-prosthetic-program",
+    "name": "Pink Heart Funds Breast Prosthetic Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Mississippi",
+    "states": [
+      "Mississippi"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "Provides breast prosthesis and bras to uninsured or underinsured women in the USA",
+    "requirements": "Hair loss patients who are uninsured or underinsured in MS Local Coast counties",
+    "website": "https://pinkheartfunds.org/breast-prosthesis-program",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Hancock, Harrison, Jackson, Pearl River, Stone, and George Counties in MS Gulf Coast"
+  },
+  {
+    "id": "angel-hair-inc-free-wig-program",
+    "name": "Angel Hair Inc. Free Wig Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "One free wig every 5 years to cancer patients who have experienced hair loss due to treatments",
+    "requirements": "Cancer patients in the USA who have experienced hair loss due to treatments",
+    "website": "https://angelhairforcancer.org/application/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "national-wigs-for-cancer-society",
+    "name": "National Wigs for Cancer Society",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance",
+      "Finance Assistance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Free wig program for both insured and uninsured cancer patients in the USA",
+    "requirements": "For cancer patients in the USA",
+    "website": "https://wigsforcancer.org/#services",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "trs-care-wig-program",
+    "name": "TRS Care Wig Program",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance",
+      "Finance Assistance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Helps insured cancer patients in the USA qualify for free medical wigs and post-mastectomy essentials through insurance",
+    "requirements": "For insured cancer patients in the USA",
+    "website": "https://trscare.org/pages/wigs-through-insurance",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "battle-cap-project",
+    "name": "Battle Cap Project",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Soft, unique, free handmade caps to cancer patients anywhere in the world",
+    "requirements": "For cancer patients anywhere in the world",
+    "website": "https://www.instagram.com/the_battle_cap_project/#",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "the-butterfly-club",
+    "name": "The Butterfly Club",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "National free wig program for people who experience hair loss due to cancer treatments",
+    "requirements": "For cancer patients in the USA",
+    "website": "https://www.thebutterflyclub.org/request-a-wig",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  },
+  {
+    "id": "verma-foundation",
+    "name": "Verma Foundation",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance",
+      "Finance Assistance"
+    ],
+    "cost": "Free",
+    "location": "Virtual",
+    "states": [],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Provides free cap wig to <18 and for >18 based on financial need",
+    "requirements": "For cancer patients",
+    "website": "https://vermafoundation.org/apply/",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Can also bypass application and purchase cap wigs"
+  }
+]

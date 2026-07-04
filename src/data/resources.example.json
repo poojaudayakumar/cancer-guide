@@ -1,0 +1,72 @@
+[
+  {
+    "id": "example-simple-resource",
+    "name": "Example Support Organization",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Food and Nutrition"
+    ],
+    "cost": "Free",
+    "location": "Columbus, Ohio",
+    "states": [
+      "Ohio"
+    ],
+    "isNationwide": false,
+    "isVirtual": false,
+    "description": "One sentence describing what this resource offers patients or caregivers.",
+    "requirements": "Who is eligible (e.g. must be an active patient, income limits, etc.)",
+    "website": "https://example.org",
+    "email": "help@example.org",
+    "phone": "(555) 123-4567",
+    "additionalInfo": ""
+  },
+  {
+    "id": "example-multi-state-resource",
+    "name": "Example Regional Wig Bank",
+    "cancerTypes": [
+      "All"
+    ],
+    "categories": [
+      "Wigs and Appearance",
+      "Emotional Support and Wellbeing"
+    ],
+    "cost": "< $25",
+    "location": "New York, New Jersey, Connecticut",
+    "states": [
+      "New York",
+      "New Jersey",
+      "Connecticut"
+    ],
+    "isNationwide": false,
+    "isVirtual": true,
+    "description": "Shows how a resource can list multiple categories and multiple states at once.",
+    "requirements": "",
+    "website": "https://example.org/wigs",
+    "email": "",
+    "phone": "",
+    "additionalInfo": "Also offers virtual consultations for patients outside these states."
+  },
+  {
+    "id": "example-nationwide-pancreatic-resource",
+    "name": "Example Nationwide Pancreatic Fund",
+    "cancerTypes": [
+      "Pancreatic"
+    ],
+    "categories": [
+      "Finance Assistance"
+    ],
+    "cost": "Free",
+    "location": "All 50 states",
+    "states": [],
+    "isNationwide": true,
+    "isVirtual": false,
+    "description": "Shows the pattern for a nationwide, cancer-type-specific resource.",
+    "requirements": "Must have a confirmed pancreatic cancer diagnosis.",
+    "website": "https://example.org/pancreatic-fund",
+    "email": "",
+    "phone": "",
+    "additionalInfo": ""
+  }
+]

@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+:root {
+  /* Warm, calming healthcare palette */
+  --background: #faf6ef; /* soft warm canvas, not stark white */
+  --foreground: #2f3532; /* deep charcoal/slate, not pure black */
+
+  /* Brand accent: eucalyptus green */
+  --color-eucalyptus: #4f7965;
+  --color-eucalyptus-light: #93bda4;
+  --color-eucalyptus-dark: #3b5c4c; /* deep forest green, for hover/pressed states and rich accents */
+
+  /* Supporting accents, used sparingly */
+  --color-dusty-rose: #c99a94;
+  --color-chocolate: #6b4423;
+  --color-espresso: #1c110c; /* near-black rich brown, for grounding elements like the footer */
+  --color-dusty-blue: #9fbecb; /* soft, muted blue that bridges eucalyptus green and dusty rose */
+
+  /* Soft dusty-rose glow used behind the brand mark */
+  --glow-dusty-rose: color-mix(in srgb, var(--color-dusty-rose) 45%, transparent);
+  --glow-dusty-rose-strong: color-mix(in srgb, var(--color-dusty-rose) 85%, transparent);
+
+  /* Soft eucalyptus glow used for the "breathing" CTA pulse */
+  --glow-eucalyptus: color-mix(in srgb, var(--color-eucalyptus) 40%, transparent);
+
+  /* Subtle grain, tiled across the whole site for a tactile-paper feel */
+  --texture-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23grain)' opacity='0.045'/%3E%3C/svg%3E");
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-eucalyptus: var(--color-eucalyptus);
+  --color-eucalyptus-light: var(--color-eucalyptus-light);
+  --color-eucalyptus-dark: var(--color-eucalyptus-dark);
+  --color-dusty-rose: var(--color-dusty-rose);
+  --color-chocolate: var(--color-chocolate);
+  --color-espresso: var(--color-espresso);
+  --color-dusty-blue: var(--color-dusty-blue);
+
+  --font-sans: var(--font-jakarta);
+
+  --animate-pin-bounce: pin-bounce 0.6s ease-in-out infinite;
+  --animate-gradient-drift: gradient-drift 32s ease-in-out infinite;
+  --animate-breathe: breathe 4.5s ease-in-out infinite;
+}
+
+@keyframes pin-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+/* Ambient drift for the hero's watercolor wash: the blobs in .hero-gradient
+   share this one animated position, moving together as a loose cluster.
+   Seven irregularly-timed points on a modest, non-symmetric path keep the
+   motion from reading as a predictable side-to-side pan; the long, slow
+   duration keeps it calm. */
+@keyframes gradient-drift {
+  0% {
+    background-position: 38% 42%;
+  }
+  13% {
+    background-position: 48% 32%;
+  }
+  29% {
+    background-position: 58% 46%;
+  }
+  44% {
+    background-position: 52% 60%;
+  }
+  61% {
+    background-position: 40% 58%;
+  }
+  76% {
+    background-position: 34% 48%;
+  }
+  90% {
+    background-position: 44% 38%;
+  }
+  100% {
+    background-position: 38% 42%;
+  }
+}
+
+/* A slow, gentle scale + glow so a primary CTA draws the eye like a
+   breathing rhythm, never a flash. */
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 var(--glow-eucalyptus);
+  }
+  50% {
+    transform: scale(1.055);
+    box-shadow: 0 0 30px 9px var(--glow-eucalyptus);
+  }
+}
+
+body {
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  background-color: var(--background);
+  background-image: var(--texture-grain);
+  background-repeat: repeat;
+  background-size: 180px 180px;
+}
+
+/* Eucalyptus / cream / dusty-rose watercolor wash used behind the homepage
+   hero, built from soft overlapping blobs (not a directional band) so
+   drifting its position reads as color floating around rather than
+   stripes sliding across. Green is clustered toward the left (slightly
+   less than fully opaque); a gap of bright cream separates it from a
+   larger, more visible rose blob on the right. All layers share one
+   background-position/size and the same
+   drift timing, so they move together as a cluster at the same calm pace
+   as before. */
+.hero-gradient {
+  background-color: var(--color-background);
+  background-image:
+    radial-gradient(
+      ellipse 53% 49% at 15% 42%,
+      color-mix(in srgb, var(--color-eucalyptus) 88%, transparent) 0%,
+      transparent 57%
+    ),
+    radial-gradient(
+      ellipse 47% 44% at 22% 64%,
+      color-mix(in srgb, var(--color-eucalyptus-light) 85%, transparent) 0%,
+      transparent 57%
+    ),
+    radial-gradient(
+      ellipse 60% 58% at 86% 46%,
+      color-mix(in srgb, var(--color-dusty-rose) 80%, transparent) 0%,
+      transparent 68%
+    );
+  background-size:
+    230% 230%,
+    230% 230%,
+    230% 230%;
+}
+
+/* Fades an element's own rendering to transparent toward the bottom, used
+   to blend a gradient hero into the plain cream page below it instead of
+   cutting off at a hard section edge. */
+.gradient-fade-bottom {
+  mask-image: linear-gradient(to bottom, black 0%, black 35%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 35%, transparent 100%);
+}
