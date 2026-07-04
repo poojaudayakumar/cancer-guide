@@ -157,14 +157,15 @@ export default function Home() {
             </div>
 
             <p className="mt-10 text-center text-base text-foreground/70">
-              Contact us at{" "}
+              Have questions, feedback, or a new resource to suggest for our
+              directory? Contact us at{" "}
               <a
                 href="mailto:projectresourcemap@gmail.com"
                 className="font-semibold text-eucalyptus-dark underline-offset-2 hover:underline"
               >
                 projectresourcemap@gmail.com
-              </a>{" "}
-              for any questions.
+              </a>
+              .
             </p>
           </div>
         </motion.section>
