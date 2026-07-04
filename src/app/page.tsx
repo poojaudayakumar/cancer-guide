@@ -21,7 +21,7 @@ const HIGHLIGHTS = [
     icon: FoldedMapIcon,
     title: "All-in-One Guide",
     subtitle:
-      "From transportation and wigs to meals and housing, find everything you need in one single map.",
+      "From transportation and wigs to meals and housing, find everything you need in one single directory.",
   },
 ];
 
