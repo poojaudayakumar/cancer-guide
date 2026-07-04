@@ -42,7 +42,7 @@
   --font-sans: var(--font-jakarta);
 
   --animate-pin-bounce: pin-bounce 0.6s ease-in-out infinite;
-  --animate-gradient-drift: gradient-drift 32s ease-in-out infinite;
+  --animate-gradient-drift: gradient-drift 26s ease-in-out infinite;
   --animate-breathe: breathe 4.5s ease-in-out infinite;
 }
 
@@ -124,12 +124,12 @@ body {
   background-color: var(--color-background);
   background-image:
     radial-gradient(
-      ellipse 53% 49% at 15% 42%,
+      ellipse 53% 49% at 18% 42%,
       color-mix(in srgb, var(--color-eucalyptus) 88%, transparent) 0%,
       transparent 57%
     ),
     radial-gradient(
-      ellipse 47% 44% at 22% 64%,
+      ellipse 47% 44% at 25% 64%,
       color-mix(in srgb, var(--color-eucalyptus-light) 85%, transparent) 0%,
       transparent 57%
     ),

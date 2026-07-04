@@ -346,6 +346,10 @@ function ConnectVisual() {
 
 // Aerial (top-down) car: hood/windshield on the right (local +x), so it
 // lines up with the direction of travel under `offsetRotate: "auto"`.
+// Local x is the car's length axis (rear at x=7, front at x=40, a 1:2.2
+// width:length body) and local y is the width axis (7 to 40, matching the
+// rotation so the front bumper leads once `offsetRotate: "auto"` points it
+// down the track).
 function CarIcon({
   className,
   style,
@@ -361,47 +365,122 @@ function CarIcon({
       aria-hidden="true"
     >
       <defs>
-        <linearGradient id="headlight-glow" x1="0%" y1="50%" x2="100%" y2="50%">
-          <stop offset="0%" stopColor="#fef9c3" stopOpacity="0.55" />
-          <stop offset="100%" stopColor="#fef9c3" stopOpacity="0" />
+        <radialGradient id="car-body-gradient" cx="38%" cy="30%" r="78%">
+          <stop offset="0%" stopColor="#5b7ff0" />
+          <stop offset="55%" stopColor="#225ee4" />
+          <stop offset="100%" stopColor="#12297a" />
+        </radialGradient>
+        <linearGradient id="headlight-beam" x1="0%" y1="50%" x2="100%" y2="50%">
+          <stop offset="0%" stopColor="#ffffff" stopOpacity="0.25" />
+          <stop offset="100%" stopColor="#ffffff" stopOpacity="0" />
         </linearGradient>
+        <linearGradient id="windshield-gloss" x1="10%" y1="0%" x2="70%" y2="100%">
+          <stop offset="0%" stopColor="#ffffff" stopOpacity="0.5" />
+          <stop offset="35%" stopColor="#ffffff" stopOpacity="0.15" />
+          <stop offset="60%" stopColor="#ffffff" stopOpacity="0" />
+        </linearGradient>
+        <clipPath id="front-windshield-clip">
+          <path d="M26,6.5 L26,17.5 C28,18.3 30,18.6 32,18.5 C32.6,15.5 32.6,8.5 32,5.5 C30,5.4 28,5.7 26,6.5 Z" />
+        </clipPath>
+        <clipPath id="rear-windshield-clip">
+          <path d="M14.5,6.5 L14.5,17.5 C12.9,18.3 11.3,18.6 9.6,18.4 C9.1,15.5 9.1,8.5 9.6,5.6 C11.3,5.4 12.9,5.7 14.5,6.5 Z" />
+        </clipPath>
       </defs>
-      {/* headlight beams: soft, elongated cones fading ahead of the nose */}
-      <polygon
-        points="43,9 66,1.5 66,10.5"
-        fill="url(#headlight-glow)"
-        style={{ filter: "blur(1.4px)" }}
+
+      {/* ambient drop shadow, offset down/out so the chassis reads as elevated */}
+      <ellipse
+        cx="24.5"
+        cy="12.8"
+        rx="18.5"
+        ry="9.5"
+        fill="rgba(0,0,0,0.3)"
+        style={{ filter: "blur(3px)" }}
       />
-      <polygon
-        points="43,15 66,13.5 66,22.5"
-        fill="url(#headlight-glow)"
-        style={{ filter: "blur(1.4px)" }}
+
+      {/* headlight beams: soft white volumetric cones, anchored under the body so
+          they read as flush with the front edge once the body is painted over them */}
+      <path
+        d="M34,7.2 C46,6.4 53.5,4.8 61,2.4 C62.2,3.8 62.2,7.2 61,8.6 C53.5,9 46,9 34,9.2 Z"
+        fill="url(#headlight-beam)"
+        style={{ filter: "blur(0.8px)" }}
       />
-      {/* body */}
-      <rect
-        x="4"
-        y="5"
-        width="40"
-        height="14"
-        rx="7"
-        fill="#0ea5e9"
-        stroke="#0369a1"
-        strokeWidth="1.5"
+      <path
+        d="M34,16.8 C46,17.6 53.5,19.2 61,21.6 C62.2,20.2 62.2,16.8 61,15.4 C53.5,15 46,15 34,14.8 Z"
+        fill="url(#headlight-beam)"
+        style={{ filter: "blur(0.8px)" }}
       />
-      {/* roof */}
-      <rect x="13" y="7.5" width="15" height="9" rx="3" fill="#7dd3fc" />
-      {/* windshield (hood side) */}
-      <rect x="29" y="7.5" width="4" height="9" rx="1.5" fill="#0c4a6e" />
-      {/* rear window */}
-      <rect x="8" y="7.5" width="4" height="9" rx="1.5" fill="#0c4a6e" />
-      {/* wheels */}
-      <rect x="7" y="1.5" width="6" height="3.5" rx="1.5" fill="var(--color-foreground)" />
-      <rect x="7" y="19" width="6" height="3.5" rx="1.5" fill="var(--color-foreground)" />
-      <rect x="31" y="1.5" width="6" height="3.5" rx="1.5" fill="var(--color-foreground)" />
-      <rect x="31" y="19" width="6" height="3.5" rx="1.5" fill="var(--color-foreground)" />
-      {/* headlights */}
-      <circle cx="43" cy="9" r="1.2" fill="#fef9c3" />
-      <circle cx="43" cy="15" r="1.2" fill="#fef9c3" />
+
+      {/* body: uniform rounded rectangle, parallel sides, clean rounded tail and nose */}
+      <path
+        d="M11,4.5 L33,4.5 A7,7 0 0 1 40,11.5 L40,12.5 A7,7 0 0 1 33,19.5 L11,19.5 A4,4 0 0 1 7,15.5 L7,8.5 A4,4 0 0 1 11,4.5 Z"
+        fill="url(#car-body-gradient)"
+        stroke="#12297a"
+        strokeWidth="0.5"
+      />
+
+      {/* rear window: mirrors the front windshield's shape and gloss, widened so its
+          inner edge matches the front windshield's smaller (inner) base exactly */}
+      <path
+        d="M14.5,6.5 L14.5,17.5 C12.9,18.3 11.3,18.6 9.6,18.4 C9.1,15.5 9.1,8.5 9.6,5.6 C11.3,5.4 12.9,5.7 14.5,6.5 Z"
+        fill="#1a1a1a"
+      />
+      <g clipPath="url(#rear-windshield-clip)">
+        <rect x="8.1" y="4.4" width="7.4" height="15.2" fill="url(#windshield-gloss)" />
+      </g>
+
+      {/* main roof panel: spans the full cabin, touching both windshields directly;
+          now a uniform width since the rear window matches the front's inner base */}
+      <path
+        d="M14.5,6.5 L26,6.5 L26,17.5 L14.5,17.5 Z"
+        fill="url(#car-body-gradient)"
+        stroke="#12297a"
+        strokeWidth="0.3"
+      />
+
+      {/* front windshield: largest glass element, contained fully within the body's margins */}
+      <path
+        d="M26,6.5 L26,17.5 C28,18.3 30,18.6 32,18.5 C32.6,15.5 32.6,8.5 32,5.5 C30,5.4 28,5.7 26,6.5 Z"
+        fill="#1a1a1a"
+      />
+      {/* sharp diagonal gloss reflection across the windshield */}
+      <g clipPath="url(#front-windshield-clip)">
+        <rect x="25" y="5" width="9" height="14" fill="url(#windshield-gloss)" />
+      </g>
+
+      {/* side windows: only mildly tapered at both ends - a 0.4 unit gap from the
+          body margin and a 0.5 unit gap from the roof panel */}
+      <path
+        d="M15,5.3 C16.5,4.95 18,4.9 20,4.9 C22,4.9 23.5,4.95 25,5.3 L25,5.6 C23.5,5.95 22,6 20,6 C18,6 16.5,5.95 15,5.6 Z"
+        fill="#1a1a1a"
+        opacity="0.85"
+      />
+      <path
+        d="M15,18.4 C16.5,18.05 18,18 20,18 C22,18 23.5,18.05 25,18.4 L25,18.7 C23.5,19.05 22,19.1 20,19.1 C18,19.1 16.5,19.05 15,18.7 Z"
+        fill="#1a1a1a"
+        opacity="0.85"
+      />
+
+      {/* hood creases: subtle inset lines running down the hood */}
+      <line x1="33" y1="9" x2="39.3" y2="9" stroke="#0f2a66" strokeWidth="0.35" opacity="0.55" />
+      <line x1="33" y1="15" x2="39.3" y2="15" stroke="#0f2a66" strokeWidth="0.35" opacity="0.55" />
+
+      {/* aerodynamic, body-colored side mirrors, slid in toward the middle of the car's length */}
+      <path
+        d="M25.5,4.5 C26.1,3.3 27.5,2.6 28.8,2.9 C29.2,3.6 28.8,4.6 27.8,5.1 C26.9,5.4 26,5.2 25.5,4.5 Z"
+        fill="url(#car-body-gradient)"
+        stroke="#12297a"
+        strokeWidth="0.25"
+      />
+      <path
+        d="M25.5,19.5 C26.1,20.7 27.5,21.4 28.8,21.1 C29.2,20.4 28.8,19.4 27.8,18.9 C26.9,18.6 26,18.8 25.5,19.5 Z"
+        fill="url(#car-body-gradient)"
+        stroke="#12297a"
+        strokeWidth="0.25"
+      />
+
+      {/* tail lights: flush against the rear body surface, slightly shrunk */}
+      <rect x="7.1" y="7.1" width="1.3" height="2.4" rx="0.6" fill="#ef4444" />
+      <rect x="7.1" y="14.5" width="1.3" height="2.4" rx="0.6" fill="#ef4444" />
     </svg>
   );
 }
