@@ -9,10 +9,28 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://projectresourcemap.com";
+const SITE_TITLE =
+  "Cancer Resource Map | Find Free Support Services & Guides";
+const SITE_DESCRIPTION =
+  "A free, interactive, vetted map of transportation, housing, meal, and wig resources for cancer patients, caregivers, and families to search in seconds.";
+
 export const metadata: Metadata = {
-  title: "Project Resource Map",
-  description:
-    "A student-run independent directory providing a free map of trusted cancer support resources for patients, caregivers, and families.",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    siteName: "Project Resource Map",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+  },
 };
 
 export default function RootLayout({
