@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
+import { track } from "@vercel/analytics";
 import { useMemo, useState } from "react";
 import rawResources from "@/data/resources.json";
 import { MapPinIcon } from "@/components/MapPinIcon";
@@ -401,6 +402,12 @@ function ResourceCard({ resource }: { resource: Resource }) {
             href={resource.website}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() =>
+              track("Outbound Resource Click", {
+                name: resource.name,
+                url: resource.website,
+              })
+            }
             className="rounded-full bg-eucalyptus px-4 py-1.5 font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-eucalyptus-dark hover:shadow-md"
           >
             Visit website
