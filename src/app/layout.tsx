@@ -16,7 +16,10 @@ const SITE_DESCRIPTION =
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: SITE_TITLE,
+  title: {
+    default: SITE_TITLE,
+    template: "Project Resource Map | %s",
+  },
   description: SITE_DESCRIPTION,
   openGraph: {
     title: SITE_TITLE,

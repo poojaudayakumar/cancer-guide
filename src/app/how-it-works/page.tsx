@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import RoadJourney from "./RoadJourney";
 
 export const metadata: Metadata = {
-  title: "How It Works | Project Resource Map",
+  title: "How It Works",
   description:
     "See how Project Resource Map helps you explore categories, filter by location and cancer type, and connect with trusted support organizations.",
 };

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ResourceDirectory from "./ResourceDirectory";
 
 export const metadata: Metadata = {
-  title: "Resource Directory | Project Resource Map",
+  title: "Resource Directory",
   description:
     "Search and filter trusted cancer support resources by category, location, cancer type, and cost.",
 };
