@@ -380,7 +380,7 @@ function ResourceCard({ resource }: { resource: Resource }) {
           {resource.cost}
         </span>
         {isPancreatic && (
-          <span className="rounded-full border border-dusty-rose/40 bg-dusty-rose/15 px-2.5 py-1 text-sm font-medium text-chocolate">
+          <span className="rounded-full border border-dusty-rose/40 bg-dusty-rose/15 px-2.5 py-1 text-xs font-medium text-chocolate">
             Pancreatic-specific
           </span>
         )}
