@@ -371,7 +371,7 @@ function ResourceCard({ resource }: { resource: Resource }) {
 
       <div className="flex flex-wrap items-center gap-1.5">
         <span
-          className={`rounded-full border px-2.5 py-1 text-[13px] font-medium ${
+          className={`rounded-full border px-2.5 py-1 text-xs font-medium ${
             resource.cost === "Free"
               ? "border-eucalyptus-light/50 bg-eucalyptus-light/20 text-eucalyptus-dark"
               : "border-chocolate/30 bg-chocolate/10 text-chocolate"
