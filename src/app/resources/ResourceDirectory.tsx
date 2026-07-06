@@ -338,6 +338,10 @@ function ToggleButton({
 
 function ResourceCard({ resource }: { resource: Resource }) {
   const isPancreatic = resource.cancerTypes.includes("Pancreatic");
+  const additionalInfoUrl = extractFirstUrl(resource.additionalInfo);
+  const additionalInfoText = additionalInfoUrl
+    ? ""
+    : resource.additionalInfo.trim();
 
   return (
     <article className="flex h-full flex-col gap-4 rounded-2xl border border-eucalyptus/15 bg-white/80 p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
@@ -365,9 +369,9 @@ function ResourceCard({ resource }: { resource: Resource }) {
         </p>
       </div>
 
-      <div className="flex flex-wrap items-center gap-1.5 text-xs">
+      <div className="flex flex-wrap items-center gap-1.5">
         <span
-          className={`rounded-full border px-2.5 py-1 font-medium ${
+          className={`rounded-full border px-2.5 py-1 text-[13px] font-medium ${
             resource.cost === "Free"
               ? "border-eucalyptus-light/50 bg-eucalyptus-light/20 text-eucalyptus-dark"
               : "border-chocolate/30 bg-chocolate/10 text-chocolate"
@@ -376,13 +380,13 @@ function ResourceCard({ resource }: { resource: Resource }) {
           {resource.cost}
         </span>
         {isPancreatic && (
-          <span className="rounded-full border border-dusty-rose/40 bg-dusty-rose/15 px-2.5 py-1 font-medium text-chocolate">
+          <span className="rounded-full border border-dusty-rose/40 bg-dusty-rose/15 px-2.5 py-1 text-sm font-medium text-chocolate">
             Pancreatic-specific
           </span>
         )}
       </div>
 
-      <p className="flex items-center gap-1.5 text-xs font-medium text-foreground/65">
+      <p className="flex items-center gap-1.5 text-[13px] font-medium text-foreground/65">
         <MapPinIcon className="h-3.5 w-3.5 shrink-0" />
         {resource.location}
       </p>
@@ -394,6 +398,36 @@ function ResourceCard({ resource }: { resource: Resource }) {
           </span>{" "}
           {resource.requirements}
         </p>
+      )}
+
+      {additionalInfoText && (
+        <p className="text-xs font-medium text-foreground/65">
+          <span className="font-semibold text-foreground/80">
+            Additional info:
+          </span>{" "}
+          {additionalInfoText}
+        </p>
+      )}
+
+      {(resource.phone || resource.email) && (
+        <div className="flex flex-wrap items-center gap-3 text-sm">
+          {resource.phone && (
+            <a
+              href={`tel:${resource.phone}`}
+              className="text-foreground/60 underline-offset-2 hover:text-eucalyptus hover:underline"
+            >
+              {resource.phone}
+            </a>
+          )}
+          {resource.email && (
+            <a
+              href={`mailto:${resource.email}`}
+              className="text-foreground/60 underline-offset-2 hover:text-eucalyptus hover:underline"
+            >
+              {resource.email}
+            </a>
+          )}
+        </div>
       )}
 
       <div className="mt-auto flex flex-wrap items-center gap-3 border-t border-foreground/10 pt-4 text-sm">
@@ -413,26 +447,34 @@ function ResourceCard({ resource }: { resource: Resource }) {
             Visit website
           </a>
         )}
-        {resource.phone && (
+        {additionalInfoUrl && (
           <a
-            href={`tel:${resource.phone}`}
-            className="text-foreground/60 underline-offset-2 hover:text-eucalyptus hover:underline"
+            href={additionalInfoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() =>
+              track("Outbound Resource Click", {
+                name: resource.name,
+                url: additionalInfoUrl,
+              })
+            }
+            className="rounded-full border border-eucalyptus/40 px-4 py-1.5 font-semibold text-eucalyptus transition-all duration-300 hover:-translate-y-0.5 hover:bg-eucalyptus/10 hover:shadow-md"
           >
-            {resource.phone}
-          </a>
-        )}
-        {resource.email && (
-          <a
-            href={`mailto:${resource.email}`}
-            className="text-foreground/60 underline-offset-2 hover:text-eucalyptus hover:underline"
-          >
-            {resource.email}
+            Additional info
           </a>
         )}
       </div>
     </article>
   );
 }
+
+function extractFirstUrl(text: string) {
+  const match = text.match(URL_PATTERN);
+  URL_PATTERN.lastIndex = 0;
+  return match ? match[0] : null;
+}
+
+const URL_PATTERN = /(https?:\/\/[^\s]+)/g;
 
 function SearchIcon({ className }: { className?: string }) {
   return (
