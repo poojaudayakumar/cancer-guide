@@ -1,77 +1,5 @@
 [
   {
-    "id": "healing-harvest",
-    "name": "Healing Harvest",
-    "cancerTypes": [
-      "All"
-    ],
-    "categories": [
-      "Food and Nutrition"
-    ],
-    "cost": "Free",
-    "location": "Lebanon, New Hampshire",
-    "states": [
-      "New Hampshire"
-    ],
-    "isNationwide": false,
-    "isVirtual": false,
-    "description": "Free, nutritious groceries for cancer patients",
-    "requirements": "For patients treated at DHMC at Lebanon, New Hampshire",
-    "website": "https://order.toasttab.com/online/healingharvest",
-    "email": "",
-    "phone": "",
-    "additionalInfo": "Additional Information: https://cancer.dartmouth.edu/patients-families/healing-harvest"
-  },
-  {
-    "id": "dartmouth-oncology-nutrition-services",
-    "name": "Dartmouth Oncology Nutrition Services",
-    "cancerTypes": [
-      "All"
-    ],
-    "categories": [
-      "Food and Nutrition"
-    ],
-    "cost": "Free",
-    "location": "New Hampshire",
-    "states": [
-      "New Hampshire"
-    ],
-    "isNationwide": false,
-    "isVirtual": false,
-    "description": "Nutritional services for cancer patients",
-    "requirements": "Free for Dartmouth Cancer Center patients",
-    "website": "https://cancer.dartmouth.edu/patients-families/oncology-nutrition-services",
-    "email": "",
-    "phone": "",
-    "additionalInfo": ""
-  },
-  {
-    "id": "dartmouth-complementary-care-program",
-    "name": "Dartmouth Complementary Care Program",
-    "cancerTypes": [
-      "All"
-    ],
-    "categories": [
-      "Food and Nutrition",
-      "Emotional Support and Wellbeing",
-      "Informational"
-    ],
-    "cost": "Free",
-    "location": "New Hampshire, Vermont",
-    "states": [
-      "New Hampshire",
-      "Vermont"
-    ],
-    "isNationwide": false,
-    "isVirtual": false,
-    "description": "Free classes/services for cancer patients",
-    "requirements": "For Dartmouth Cancer Center Patients in New Hampshire/VT",
-    "website": "https://cancer.dartmouth.edu/patients-families/complementary-care-program",
-    "email": "cancersupport@hitchcock.org",
-    "phone": "(603) 650-7751",
-    "additionalInfo": "Complementary Care Guide 2026 pdf: https://cancer.dartmouth.edu/sites/default/files/2026-01/complemenatry-care-program-guide-2026.pdf"
-  },
-  {
     "id": "the-emergency-food-assistance-program",
     "name": "The Emergency Food Assistance Program",
     "cancerTypes": [
@@ -112,31 +40,6 @@
     "email": "",
     "phone": "",
     "additionalInfo": "Each county/region has its own service"
-  },
-  {
-    "id": "dartmouth-support-groups",
-    "name": "Dartmouth Support Groups",
-    "cancerTypes": [
-      "All"
-    ],
-    "categories": [
-      "Emotional Support and Wellbeing",
-      "Informational"
-    ],
-    "cost": "Free",
-    "location": "New Hampshire, Vermont",
-    "states": [
-      "New Hampshire",
-      "Vermont"
-    ],
-    "isNationwide": false,
-    "isVirtual": false,
-    "description": "Free support groups for anyone in the area",
-    "requirements": "Regardless of where treatment was received",
-    "website": "https://www.dartmouth-health.org/events/hosts/dartmouth-cancer-center-patients-and-families-events-and-support-groups",
-    "email": "",
-    "phone": "",
-    "additionalInfo": "https://cancer.dartmouth.edu/patients-families/complementary-care-program"
   },
   {
     "id": "dartmouth-oncology-nutrition-playlist",
@@ -181,29 +84,6 @@
     "email": "",
     "phone": "",
     "additionalInfo": "https://cancer.dartmouth.edu/patients-families/complementary-care-program"
-  },
-  {
-    "id": "dartmouth-patient-and-family-resource-library",
-    "name": "Dartmouth Patient and Family Resource Library",
-    "cancerTypes": [
-      "All"
-    ],
-    "categories": [
-      "Informational"
-    ],
-    "cost": "Free",
-    "location": "Lebanon, New Hampshire",
-    "states": [
-      "New Hampshire"
-    ],
-    "isNationwide": false,
-    "isVirtual": false,
-    "description": "Library on cancer related topics",
-    "requirements": "Cancer patients and family members at DHMC",
-    "website": "https://cancer.dartmouth.edu/patients-families/resource-library",
-    "email": "",
-    "phone": "",
-    "additionalInfo": "2K waiting area, Norris Cotton Cancer Care Pavilion, Lebanon, New Hampshire"
   },
   {
     "id": "stupidcancer-org",
